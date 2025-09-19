@@ -1,0 +1,43 @@
+/* Downloads app styles */
+.downloads {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.downloads h2 {
+  margin: 0 0 10px;
+}
+.downloads input[type="file"] {
+  padding: 6px;
+  color: var(--text-0, #eff3ff);
+}
+.downloads-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.downloads-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid var(--border, #273149);
+  border-radius: var(--radius-sm, 8px);
+  background: var(--surface-2, rgba(18,24,38,.72));
+}
+.downloads-item span {
+  flex: 1;
+}
+.downloads-item button.analyze {
+  background: var(--accent, #4b6dff);
+  color: var(--text-0, #eff3ff);
+  border: none;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm, 8px);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.downloads-item button.analyze:hover {
+  background: var(--accent-2, #7aa2ff);
+}

@@ -1,0 +1,8 @@
+{
+  "id": "app.calendar",
+  "name": "Calendar",
+  "description": "Calendar and To-Do manager with date and time display",
+  "entry": "main.js",
+  "styles": ["style.css"],
+  "version": "1.0.0"
+}

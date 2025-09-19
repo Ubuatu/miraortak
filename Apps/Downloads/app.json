@@ -1,0 +1,8 @@
+{
+  "id": "app.downloads",
+  "name": "Downloads",
+  "description": "View and import downloaded files",
+  "entry": "main.js",
+  "styles": ["style.css"],
+  "version": "1.0.0"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "app.explorer",
+  "name": "Dosya Yöneticisi",
+  "description": "Dosyalarınıza göz atın ve yönetin.",
+  "entry": "main.js",
+  "styles": [],
+  "version": "1.0.0"
+}

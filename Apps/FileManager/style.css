@@ -1,0 +1,33 @@
+.filemanager {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+  background: var(--surface-1);
+}
+
+.fm-pathbar {
+  font-weight: bold;
+  padding: 8px 0;
+  color: var(--text-1);
+  cursor: pointer;
+  user-select: none;
+}
+
+.fm-list {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.fm-item {
+  padding: 6px 8px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.fm-item:hover {
+  background: var(--bg-3);
+  transform: translateX(2px);
+}

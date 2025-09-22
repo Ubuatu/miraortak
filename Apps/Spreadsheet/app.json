@@ -1,0 +1,8 @@
+{
+  "id": "app.spreadsheet",
+  "name": "Spreadsheet",
+  "description": "Tablo ölu014fu015fturma ve du00fczenleme, şablonlar ve yazdirma özellikleri sunan bir uygulama.",
+  "entry": "main.js",
+  "styles": "style.css",
+  "version": "1.0.0"
+}

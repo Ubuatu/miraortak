@@ -1,0 +1,61 @@
+/* Styles for the Spreadsheet app */
+.spreadsheet {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: var(--font-sans, Arial, sans-serif);
+}
+
+.spreadsheet-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.spreadsheet-toolbar button,
+.spreadsheet-toolbar select,
+.spreadsheet-toolbar input[type="text"] {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.spreadsheet-table {
+  border-collapse: collapse;
+  width: 100%;
+  overflow: auto;
+  flex: 1 1 auto;
+}
+
+.spreadsheet-table th,
+.spreadsheet-table td {
+  border: 1px solid var(--border-color, #ccc);
+  min-width: 80px;
+  height: 24px;
+  padding: 2px;
+  overflow: hidden;
+}
+
+.spreadsheet-table th {
+  background: var(--background-elevated, #f0f0f0);
+  text-align: center;
+  font-weight: bold;
+}
+
+.spreadsheet-table td {
+  position: relative;
+}
+
+.spreadsheet-table td:focus {
+  outline: 2px solid var(--accent, #0088ff);
+}
+
+.spreadsheet-table td[contenteditable="true"] {
+  cursor: text;
+}
+
+/* Highlight row/column headers on hover */
+.spreadsheet-table tr:hover th,
+.spreadsheet-table td:hover ~ th {
+  background: var(--background-hover, #e0e0e0);
+}
